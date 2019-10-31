@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QIMOpenSSL"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "OpenSSL for iOS"
   s.description  = "QIM Public OpenSSL is an SSL/TLS and Crypto toolkit."
   s.homepage     = "https://github.com/Lidalu/QIMOpenSSL/"
@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
 
   s.libraries = 'ssl', 'crypto'
   s.requires_arc = false
+  s.static_framework = true
 end
